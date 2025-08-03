@@ -43,6 +43,6 @@ jobs:
       - name: Collect Submission and Run Grader
         uses: pawtograder/assignment-action@v3 # Update version here
         with:
-          grading_server: 'https://udediaagwykgvdxfgrnw.supabase.co' # STAGING
+          grading_server: 'https://api.pawtograder.com' # PROD
           action_ref: '${{ github.action_ref }}'
           action_repository: '${{ github.action_repository }}'
